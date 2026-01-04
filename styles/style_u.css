@@ -1,0 +1,65 @@
+*{
+    border: 1px;
+    border-style:dotted;
+}
+body{
+    background-color: rgb(25, 163, 243);
+}
+.h1{
+    text-align: center;
+    background-color: rgb(211, 173, 161);
+    margin: 10px;
+}
+#blanc{
+    margin-inline:10px;
+    background-color: white;
+}
+.center{
+    text-align: center;
+    margin: 10px;
+}
+.marron{
+    background-color: rgb(95, 40, 24);
+}
+.bleu{
+    background-color: rgb(126, 154, 190);
+}
+#blanc2{
+    background-color: white;
+
+}
+.blanc{
+    background-color: white;
+    padding: 1cm;
+}
+#cote{
+    flex-direction: column;
+    background-color: greenyellow;
+    align-self: flex-start;
+    margin-left: 200px;
+}
+.container{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gris{
+    background-color: rgb(175, 175, 175);
+    margin: 10px;
+}
+.nav{
+    padding: 10px;
+    background-color: rgb(155, 155, 155);
+    margin: 10px;
+}
+.table{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+.blanc1{
+    background-color: white;
+    margin-inline: 10px;
+}

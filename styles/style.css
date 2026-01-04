@@ -1,0 +1,143 @@
+*{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 12px;
+}
+button{
+    color: black;
+    width: 100px;
+    height: 30px;
+}
+button:hover{
+    background-color: yellow;
+    height: 35px;
+    width: 110px;
+}
+body{
+    background-color: black;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    padding: 1cm;
+}
+#mimage{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 12cm;
+    margin-bottom: 10cm;
+}
+#Biographie, #Raison{
+    margin: 12px;
+    flex : 1;
+}
+article{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+#violet{
+    background-color: #B38DF7;
+}
+#Araki{
+    width: 5cm;
+}
+.imgpb{
+    width: 300px;
+    height: 300px;
+}
+.spb{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-items: center;
+    border: black;
+}
+article{
+    justify-content: center;
+    gap: 50px;
+}
+.pg{
+    width: 300px;
+}
+.PhantomBlood{
+    font-size: x-large;
+}
+.pgm{
+    width: 600px;
+}
+.ciel{
+    background-color: aqua;
+}
+.vert{
+    background-color: greenyellow;
+}
+.btf {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.btd {
+  width: calc(33.333% - 20px);
+}
+.btd img {
+    width: 100%;
+}
+.scf {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Décalage 2e ligne */
+.scd:nth-child(4),
+.scd:nth-child(5),
+.scd:nth-child(6) {
+  transform: translateX(40px);
+}
+.gwf{
+    display: flex;
+    flex-direction: row;
+}
+.gwd{
+    width: 16%;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+
+/* Carte */
+.card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white;
+}
+
+.divider {
+  background-color: white;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+.page {
+  display: grid;
+  grid-template-columns: 1fr 2px 1.2fr;
+  height: 100vh;
+  padding: 40px;
+  gap: 30px;
+}
